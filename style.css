@@ -81,6 +81,7 @@ main {
 
         & svg {
           color: gray;
+          transition: all 0.4s ease-in-out;
 
           & path {
             pointer-events: none;
@@ -168,6 +169,7 @@ main {
           appearance: none;
           border: 1.5px solid black;
           border-radius: 2px;
+          transition: all 0.4s ease-in-out;
         }
 
         & .option-checked:checked {
